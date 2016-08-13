@@ -23,6 +23,8 @@ public class ProximityIntentReceiver extends BroadcastReceiver {
 
         if (entering) {
             Log.e(getClass().getSimpleName(), "entering");
+            Intent intentt = new Intent(context, EmulatorActivity.class);
+            context.startActivity(intentt);
         }
         else {
             Log.e(getClass().getSimpleName(), "exiting");
