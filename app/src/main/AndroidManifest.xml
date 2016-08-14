@@ -38,6 +38,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EmulatorActivity"
+            android:label="@string/title_activity_emulatoractivity">
+            <intent-filter>
+                <action android:name="com.brb.emulatoractivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -38,7 +38,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     };
     private static final long MINIMUM_DISTANCECHANGE_FOR_UPDATE = 1; // in Meters
     private static final long MINIMUM_TIME_BETWEEN_UPDATE = 1000; // in Milliseconds
-    private static final long POINT_RADIUS = 20; // in Meters
+    private static final long POINT_RADIUS = 30; // in Meters
     private static final long PROX_ALERT_EXPIRATION = -1;
     private static final String PROX_ALERT_INTENT ="com.brb.PkmnGoRed.ProximityAlert";
 
@@ -206,5 +206,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void doLocationThing() {
         Toast.makeText(this, "asd", Toast.LENGTH_SHORT).show();
     }
+
+
 
 }
